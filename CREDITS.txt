@@ -1,0 +1,19 @@
+Riverina Floor Sanding: design preview by Dusk
+
+Everything on these pages is the business's own material. No stock photos or generated images are used.
+
+Logo, family badge, job photos and the short clip of the sander (assets/brand, assets/img, assets/video):
+  from the business's current website, riverinafloorsanding.com.au
+  The five "before and after" sliders were cut from the side-by-side pictures on its services page.
+  The logo mark in the intro and the browser tab icon is redrawn from the logo so it stays sharp at any size.
+
+Sports hall photos (assets/img/court-*.jpg) and assets/img/g-cypress-cover.jpg:
+  posted by the business on its Facebook page, facebook.com/riverinafloorsanding
+
+Wording: services, FAQs, care tips and the "what not to expect" list are taken from the current website and tightened.
+Reviews: the business's Google listing (5.0 from 22 reviews, read 13 October 2026) and the reviews shown on its own website.
+  "100% recommend (13 reviews)" is from its Facebook page on the same day.
+
+Untouched copies of every file are kept outside this folder in client-sites/_originals/riverina-floor-sanding/.
+
+Fonts: Archivo and Michroma, Google Fonts (Open Font License).
