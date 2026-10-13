@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..800&amp;family=Michroma&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/site.css?v=1">
+<link rel="stylesheet" href="assets/css/site.css?v=2">
 <link rel="preload" as="image" href="assets/img/hero-grain.jpg" imagesrcset="assets/img/hero-grain-sm.jpg 900w, assets/img/hero-grain.jpg 1440w" imagesizes="100vw">
 <script>
 (function(){var r=document.documentElement,p=false,m=false,inside=false,t='navigate';r.classList.add('js');
@@ -28,7 +28,7 @@ if(/[?&]intro=0/.test(location.search))p=false;}catch(e){}
 r.classList.add(p?'has-intro':'no-intro');if(p)r.classList.add('intro-lock');else if(inside&&!m&&t!=='back_forward')r.classList.add('arriving');
 setTimeout(function(){if(!window.__rfs){r.classList.remove('has-intro','intro-lock','motion','arriving');r.classList.add('no-intro','ready')}},6000);
 // if a newer version has been published than the copy this browser kept, load the new one once
-try{var B='1';fetch('version.txt?'+Date.now(),{cache:'no-store'}).then(function(x){return x.ok?x.text():''}).then(function(t){t=(t||'').trim();
+try{var B='2';fetch('version.txt?'+Date.now(),{cache:'no-store'}).then(function(x){return x.ok?x.text():''}).then(function(t){t=(t||'').trim();
 if(/^\d+$/.test(t)&&t!==B&&!new RegExp('[?&]r='+t+'(&|$)').test(location.search)){location.replace(location.pathname+'?r='+t+location.hash)}}).catch(function(){})}catch(e){}
 })();
 </script>
@@ -80,7 +80,7 @@ if(/^\d+$/.test(t)&&t!==B&&!new RegExp('[?&]r='+t+'(&|$)').test(location.search)
   <div class="hero-bg"><img src="assets/img/hero-grain.jpg" srcset="assets/img/hero-grain-sm.jpg 900w, assets/img/hero-grain.jpg 1440w" sizes="100vw" alt="Freshly sanded timber boards seen from floor level, with the sanding machine behind" width="1440" height="1080" fetchpriority="high" decoding="async"></div>
   <div class="hero-sheen"></div><div class="hero-shade"></div>
   <div class="wrap hero-in">
-    <p class="eyebrow on-dark">Timber floor experts, Albury Wodonga</p>
+    <p class="eyebrow on-dark"><span>Timber floor experts,<br class="br-m"> Albury Wodonga</span></p>
     <h1 data-split>Bring out the natural beauty of your <em>timber floor.</em></h1>
     <p class="hero-sub">Sanding, polishing, staining and repairs by a family owned business that homes and businesses across Albury Wodonga keep recommending.</p>
     <div class="hero-cta"><a class="btn" href="contact.html">Get a free quote <svg class="ico i-go" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-go"/></svg></a><a class="btn ghost" href="tel:0423220698"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg> Call 0423 220 698</a></div>
@@ -242,6 +242,6 @@ if(/^\d+$/.test(t)&&t!==B&&!new RegExp('[?&]r='+t+'(&|$)').test(location.search)
 <div class="ftr-base"><span>&copy; <span data-year>2026</span> Riverina Floor Sanding</span><span>Design preview by Dusk. Photos are the business's own; sources are in CREDITS.txt.</span></div>
 </div></footer>
 <div class="mbar"><a class="btn ghost" href="tel:0423220698"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg> Call</a><a class="btn" href="contact.html">Free quote <svg class="ico i-go" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-go"/></svg></a></div>
-<script src="assets/js/site.js?v=1" defer></script>
+<script src="assets/js/site.js?v=2" defer></script>
 </body>
 </html>
